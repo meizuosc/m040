@@ -1,0 +1,5 @@
+config VIDEO_M6MO
+	tristate "Fujisu M6MO MIPI CSI-2 supporting camera driver"
+	depends on I2C && VIDEO_V4L2
+	---help---
+	  This driver supports Fujitsu M6MO ISP with sony IMX175 and OV9724 sensor

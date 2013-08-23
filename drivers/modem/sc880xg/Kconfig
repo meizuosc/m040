@@ -1,0 +1,18 @@
+config MEIZU_MODEM_TD
+	bool "Meizu TD Mobile Modem Interface"
+	default n
+
+config MX2_SC8803G
+	bool "TD SC8803G modem chip support"
+	depends on MEIZU_MODEM_TD
+	default n
+
+config MX2_SC8803G_CONTROL
+	bool "TD SC8803G modem control interface"
+	depends on MEIZU_MODEM_TD
+	default n
+
+config MX2_SC8803G_TEST
+	bool "M040 & SC8803G EVT board communication test "
+	depends on MEIZU_MODEM_TD
+	default n

@@ -1,0 +1,1 @@
+obj-$(CONFIG_VIDEO_M6MO) += m6mo_core.o m6mo_ctrl.o m6mo_fw.o

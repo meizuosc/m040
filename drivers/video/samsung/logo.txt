@@ -1,0 +1,12 @@
+MX2 logo position:
+1. meizu:
+offset = 228,292
+
+2. unicom:
+offset = 242,562
+
+3. cmcc:
+offset = 254,368
+
+
+

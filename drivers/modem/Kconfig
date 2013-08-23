@@ -1,0 +1,6 @@
+menu "Meizu Mobile Modem Interface"
+
+source "drivers/modem/xmm6x60/Kconfig"
+source "drivers/modem/sc880xg/Kconfig"
+
+endmenu

@@ -1,0 +1,12 @@
+#
+#earphone detection configuration
+#
+
+config EARPHONE_DETECTION
+	default y
+	tristate "earphone detection support"
+	help
+
+	say y here if you want earphone support
+	
+	if not sure say y
